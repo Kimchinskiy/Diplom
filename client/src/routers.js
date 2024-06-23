@@ -9,7 +9,6 @@ import Return from './pages/Return';
 import Profile from "./pages/Profile";
 import SearchResults from "./pages/SearchResults";
 
-// Доступ к страницам, если пользователь авторизован
 export const authRoutes = [
     {
         path: ADMIN_ROUTE,

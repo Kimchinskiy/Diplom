@@ -64,7 +64,9 @@ const Auth = observer(() => {
 
     return (
         <Container className="d-flex justify-content-center align-items-center container">
-            <Card className="card">
+            <Card className="card" style={{
+                marginTop:"150px", width:"500px"
+            }}>
                 <Form className='d-flex flex-column p-4' onSubmit={handleSubmit}>
                     <h1 className="form-title">
                         {isLogin ? 'Авторизация' : "Регистрация"}
